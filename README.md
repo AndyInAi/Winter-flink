@@ -13,3 +13,13 @@ k8s 部署 flink
 	# 删除
 
 	~/Winter-flink/delete.sh
+
+	# 测试
+
+	./bin/flink run -m 192.168.1.21:30021 ./examples/batch/WordCount.jar
+
+	# 管理
+
+	http://192.168.1.21:30021/#/overview
+
+
